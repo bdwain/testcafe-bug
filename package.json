@@ -1,0 +1,17 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "react-scripts": "1.0.17",
+    "testcafe": "^0.18.2"
+  },
+  "scripts": {
+    "e2e": "testcafe chrome ./e2e/e2e.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
